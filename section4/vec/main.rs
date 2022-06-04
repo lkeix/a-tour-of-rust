@@ -1,4 +1,7 @@
 fn main() {
+  // Vec is generic
+  // T is the type of the elements in the vector, which is i64 in this case
+  // new is Static Method
   let mut i64_vec = Vec::<i64>::new();
   i64_vec.push(42);
   i64_vec.push(13);
